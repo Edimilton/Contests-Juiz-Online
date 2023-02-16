@@ -1,0 +1,7 @@
+valor1, valor2, valor3 = input().split(" ")
+valor1 = int(valor1)
+valor2 = int(valor2)
+valor3 = int(valor3)
+pacocas = str(valor2//valor3)
+resto = str(valor2%valor3)
+print(pacocas +" "+ resto)
